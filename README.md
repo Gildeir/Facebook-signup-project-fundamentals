@@ -221,6 +221,16 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 ⚠️ Lembre-se que o seu projeto só será avaliado se estiver passando pelos _checks_ do **ESLint**.
 
+Para garantir a qualidade do código, vamos utilizar neste projeto os linters ESLint e StyleLint. Assim o código estará alinhado com as boas práticas de desenvolvimento, sendo mais legível e de fácil manutenção! Para rodá-los localmente no projeto, execute os comandos abaixo:
+
+```bash
+npm run lint
+npm run lint:styles
+```
+
+Quando é executado o comando npm run lint:styles, será avaliado se os arquivos com a extensão CSS estão com o padrão correto.
+Quando é executado o comando npm run lint, será avaliado se os arquivos com a extensão JS e JSX estão com o padrão correto.
+
 ---
 
 ## Requisitos do projeto
