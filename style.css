@@ -4,25 +4,18 @@
 }
 
 .top-bar {
+  color: white;
   background-color: rgb(66, 103, 178);
   width: 980;
   height: 85px;
   display: flex;
- } 
+  justify-content: center;
+}
 
-.facebook-logo {
-  display: flex;
-  text-align: left;
-  }
-
-.line-content {
-  margin-left: 500px;
-  display: flex;
-  height: 25px;
-  };
-  
-form {
+.facebook-login {
+    border: 2px solid black;
     display: flex;
+    justify-content: space-between;
 }
 
   
