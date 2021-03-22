@@ -97,7 +97,7 @@ Você pode adicionar outros arquivos se julgar necessário. Qualquer dúvida, pr
 ### Antes de começar a desenvolver:
 
 1. Clone o repositório
-  * `git clone https://github.com/tryber/sd-010-b-project-facebook-signup.git`.
+  * `git clone git@github.com:tryber/sd-010-b-project-facebook-signup.git`.
   * Entre na pasta do repositório que você acabou de clonar:
     * `cd sd-010-b-project-facebook-signup`
 
