@@ -84,3 +84,59 @@ form {
 
 Gildeir
  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*
+ Bruno
+ */
+
+.main-content{
+  display: flex;
+}
+
+.left-content{
+  width: 800px;
+}
+
+.right-content{
+  width: 300px;
+}
+
+#ajust{
+  display:flex;
+}
+
+#lastname-content{
+  margin-left: 10px;
+}
