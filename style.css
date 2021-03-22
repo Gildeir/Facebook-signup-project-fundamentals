@@ -17,7 +17,7 @@
   align-content: center;
   align-self: center;
   justify-content: space-around;
-}    
+}
 
 .facebook-login {
   display: flex;
@@ -36,7 +36,7 @@
 }
 
 #ajust {
-  display:flex;
+  display: flex;
 }
 
 #lastname-content {
