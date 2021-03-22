@@ -15,13 +15,17 @@
                     <img class="facebook-logo" src="imgs/facebook-logo.png" alt="facebook logo">
                 </div>        
                 <form class="facebook-login">           
-                    <div class="line-content">
-                        <label for="email">Email ou telefone: </label>
-                        <input class="email-input" type="email" name="email" id="email" required>
+                    <div class="form-group">
+                        <label id="user-name-phone-label" for="email">Email ou telefone: </label>
+                        <input id="user-email-phone" type="email" name="email" id="email" required>
                     </div> 
-                    <div class="line-content">
-                        <label for="senha">Senha: </label>
-                        <input type="password" name="senha" id="senha" required>
+                    <div class="form-group">
+                        <label id="user-password-label" for="senha">Senha: </label>
+                        <input  id="user-password" type="password" name="senha" required>
+                    </div>
+                    <div>
+                        <button class="form-control" type="submit">Entrar</button>
+                    </div>
                 </form> 
             </div>       
         </nav>    
