@@ -4,33 +4,18 @@
 }
 
 .top-bar {
+  color: white;
   background-color: rgb(66, 103, 178);
   width: 980;
   height: 85px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
-nav {
-  display: flex;
-}
-
-header nav a {
-    border: solid 10px black;
-    text-align: left;
-} 
-
-.facebook-logo {
-    align-self: flex-start;
-}
-
-.line-content {
-  display: flex;
-  height: ;
-}
-
-form {
-  display: flex;
+.facebook-login {
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
 }
 
   
