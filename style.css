@@ -4,124 +4,42 @@
 }
 
 .top-bar {
-  color: white;
   background-color: rgb(66, 103, 178);
   width: 980;
   height: 85px;
   display: flex;
-  justify-content: center;
+  align-content: center;
 }
+
+.nav-content {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  align-self: center;
+  justify-content: space-around;
+}    
 
 .facebook-login {
-    border: 2px solid black;
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  align-self: center;
 }
 
-  
-/* 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Gildeir
- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- /*
- Bruno
- */
-
-.main-content{
+.main-content {
   display: flex;
 }
 
-.left-content{
+.left-content {
   width: 800px;
 }
 
-.right-content{
+.right-content {
   width: 300px;
 }
 
-#ajust{
+#ajust {
   display:flex;
 }
 
-#lastname-content{
+#lastname-content {
   margin-left: 10px;
 }
