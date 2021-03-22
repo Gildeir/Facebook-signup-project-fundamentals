@@ -8,21 +8,29 @@
   width: 980;
   height: 85px;
   display: flex;
- } 
+  justify-content: space-around;
+}
+
+nav {
+  display: flex;
+}
+
+header nav a {
+    border: solid 10px black;
+    text-align: left;
+} 
 
 .facebook-logo {
-  display: flex;
-  text-align: left;
-  }
+    align-self: flex-start;
+}
 
 .line-content {
-  margin-left: 500px;
   display: flex;
-  height: 25px;
-  };
-  
+  height: ;
+}
+
 form {
-    display: flex;
+  display: flex;
 }
 
   
