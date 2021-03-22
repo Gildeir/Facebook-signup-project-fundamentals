@@ -13,9 +13,9 @@
 }
 
 .facebook-login {
-    border: 2px solid black;
-    display: flex;
-    justify-content: space-between;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
 }
 
   
@@ -106,22 +106,22 @@ Gildeir
  Bruno
  */
 
-.main-content{
+.main-content {
   display: flex;
 }
 
-.left-content{
+.left-content {
   width: 800px;
 }
 
-.right-content{
+.right-content {
   width: 300px;
 }
 
-#ajust{
-  display:flex;
+#ajust {
+  display: flex;
 }
 
-#lastname-content{
+#lastname-content {
   margin-left: 10px;
 }
