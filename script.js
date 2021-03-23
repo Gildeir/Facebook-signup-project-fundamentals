@@ -5,6 +5,7 @@ const buttonCadastro = document.querySelector('#facebook-register');
 const getMensage = document.querySelector('#alert-mensage');
 const getOthers = document.querySelector('.buttons-radius');
 const getPersona = document.querySelector('#others');
+const getSp = document.querySelector('.align-ipt');
 let count = 0;
 
 getButton.addEventListener('click', () => alert(getInputLogin.value));
@@ -25,8 +26,8 @@ getOthers.addEventListener('click', (evt) => {
   if (getTarget === getPersona) {
     const createInpt = document.createElement('input');
     createInpt.setAttribute('type', 'text');
-    createInpt.setAttribute('name', 'gender');
+    createInpt.setAttribute('name', 'gender-custom');
     createInpt.setAttribute('placeholder', 'gênero(opcional)');
-    getOthers.appendChild(createInpt);
+    getSp.appendChild(createInpt);
   }
 });
