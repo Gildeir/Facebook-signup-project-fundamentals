@@ -5,12 +5,15 @@ const buttonCadastro = document.querySelector('#facebook-register');
 const getMensage = document.querySelector('#alert-mensage');
 const getOthers = document.querySelector('.buttons-radius');
 const getPersona = document.querySelector('#others');
+let count = 0;
 
 getButton.addEventListener('click', () => alert(getInputLogin.value));
 
 buttonCadastro.addEventListener('click', (e) => {
   for (let index = 0; index < getInputs.length; index += 1) {
     if (getInputs[index].value === '') {
+      count += 1;
+    } if (count > 2) {
       getMensage.innerHTML = 'Campos inválidos';
     }
   }
