@@ -207,14 +207,15 @@
 		<span class="quick-easy">É rápido e fácil.</span>
 		<form method="GET">
 			<label id="ajust" for="name-content">
-				<input type="text" name="firstname" id="name-content" placeholder="Nome" required>
-				<input type="text" name="lastname" id="lastname-content" placeholder="Sobrenome" required>
+				<!-- Pesquisa realizada no site: https://pt.stackoverflow.com/questions/8293/personalizar-a-mensagem-do-navegador-para-um-campo-required -->
+				<input type="text" name="firstname" id="name-content" placeholder="Nome" required oninvalid="this.setCustomValidity('Campos inválidos')" onchange="try{setCustomValidity('')}catch(e){}">
+				<input type="text" name="lastname" id="lastname-content" placeholder="Sobrenome" required oninvalid="this.setCustomValidity('Campos inválidos')" onchange="try{setCustomValidity('')}catch(e){}"> 
 			</label>
-                <input type="text" name="phone_email" id="email-content" placeholder="Celular ou email" required>
-                <input type="password" name="password" id="" placeholder="Nova senha" required>
+      <input type="text" name="phone_email" id="email-content" placeholder="Celular ou email" required oninvalid="this.setCustomValidity('Campos inválidos')" onchange="try{setCustomValidity('')}catch(e){}">
+      <input type="password" name="password" id="" placeholder="Nova senha" required oninvalid="this.setCustomValidity('Campos inválidos')" onchange="try{setCustomValidity('')}catch(e){}">
 			<div>
 				<label id="label-birthdate" for="">Data de nascimento</label>
-				<input type="text" name="birthdate" placeholder="dd/mm/aaaa" required>
+				<input type="text" name="birthdate" placeholder="dd/mm/aaaa" required oninvalid="this.setCustomValidity('Campos inválidos')" onchange="try{setCustomValidity('')}catch(e){}">
 			</div>
 			<label id="label-gender">Gênero</label>
 				<div class="radio-buttons">
