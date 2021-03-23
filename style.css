@@ -46,14 +46,22 @@
   font-weight: bold;
   line-height: 18px;
   white-space: nowrap;
-
-
 }
 
 .form-control {
   display: flex;
   align-self: flex-end;
 
+}
+
+#user-email-phone {
+  padding: 3px 3px 4px;
+  border: 1px solid #ccd0d5;
+}
+
+#user-password {
+  padding: 3px 3px 4px;
+  border: 1px solid #ccd0d5;
 }
 
 .main-content {
