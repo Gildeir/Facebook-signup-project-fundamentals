@@ -26,6 +26,7 @@
   width: 350px;
   display: flex;
   align-self: center;
+  justify-content: space-between;
 }
 
 .form-group {
@@ -47,11 +48,6 @@
   white-space: nowrap;
 }
 
-/* #radin {
-  width: 40px;
-
-} */
-
 .form-control {
   display: flex;
   align-self: flex-end;
@@ -69,7 +65,6 @@
 .radio-buttons {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
 }
 
 .right-content {
@@ -82,4 +77,8 @@
 
 #lastname-content {
   margin-left: 10px;
+}
+
+.buttons-radius{
+  display: flex;
 }
