@@ -26,7 +26,6 @@
   width: 350px;
   display: flex;
   align-self: center;
-  justify-content: space-between;
 }
 
 .form-group {
