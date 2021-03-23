@@ -51,7 +51,6 @@
 .form-control {
   display: flex;
   align-self: flex-end;
-
 }
 
 .main-content {
@@ -81,4 +80,8 @@
 
 .buttons-radius {
   display: flex;
+}
+
+#alert-mensage {
+  color: darkred;
 }
