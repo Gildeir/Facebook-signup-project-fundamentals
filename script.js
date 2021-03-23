@@ -3,6 +3,8 @@ const getInputLogin = document.getElementById('user-email-phone');
 const getInputs = document.getElementsByTagName('input');
 const buttonCadastro = document.querySelector('#facebook-register');
 const getMensage = document.querySelector('#alert-mensage');
+const getOthers = document.querySelector('.buttons-radius');
+const getPersona = document.querySelector('#others');
 
 getButton.addEventListener('click', () => alert(getInputLogin.value));
 
@@ -13,4 +15,15 @@ buttonCadastro.addEventListener('click', (e) => {
     }
   }
   e.preventDefault();
+});
+
+getOthers.addEventListener('click', (evt) => {
+  const getTarget = evt.target;
+  if (getTarget === getPersona) {
+    const createInpt = document.createElement('input');
+    createInpt.setAttribute('type', 'text');
+    createInpt.setAttribute('name', 'gender');
+    createInpt.setAttribute('placeholder', 'gênero(opcional)');
+    getOthers.appendChild(createInpt);
+  }
 });
