@@ -12,6 +12,9 @@
 }
 
 .nav-content {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  color:#ffffff;
   width: 100%;
   display: flex;
   align-content: center;
@@ -19,19 +22,37 @@
   justify-content: space-around;
 }
 
-.form-group {
-  border: solid 3px black;
-  display: flex;
-  flex-direction: row;
-}
-
 .facebook-login {
+  width: 350px;
   display: flex;
   align-self: center;
+  justify-content: space-between;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 142px;
+}
+
+#button-login {
+  background-color: rgb(66, 103, 178);
+  border-radius: 2px;
+  padding: 2px 6px;
+  color: #FFFFFF;
+  text-align: center;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 18px;
+  white-space: nowrap;
+
+
 }
 
 .form-control {
   display: flex;
+  align-self: flex-end;
 
 }
 
