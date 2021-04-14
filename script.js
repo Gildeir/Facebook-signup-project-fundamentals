@@ -7,7 +7,7 @@ const getOthers = document.querySelector('.buttons-radius');
 const getPersona = document.querySelector('#others');
 const getSp = document.querySelector('.align-ipt');
 let count = 0;
-
+//
 getButton.addEventListener('click', () => alert(getInputLogin.value));
 
 buttonCadastro.addEventListener('click', (e) => {
